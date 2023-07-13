@@ -41,10 +41,10 @@ And now you can change that to src with :
 * MODIFED by Gauthier
 
       "paths": {
-          "@gpeel/plog": ["src/public-api.ts"]
+          "@gpeel/plog": ["projects/gpeel/plog/src/public-api.ts"]
       }
 
-##        
+##         
 
 In .eslintrc.json the geneated path is wrong, change it from :
 line 2

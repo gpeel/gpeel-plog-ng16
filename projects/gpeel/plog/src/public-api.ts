@@ -1,7 +1,7 @@
 /*
- * Public API Surface of plog
+ * Public API Surface of Plog
  */
-
-export * from './lib/plog.service';
-export * from './lib/plog.component';
-export * from './lib/plog.module';
+export {Plog} from './lib/plog';
+export {PlogModule} from './lib/plog.module';
+export {PLOG_ENVIRONMENT_PROD_DEFAULT} from './lib/PLOG_ENVIRONMENT_PROD_DEFAULT';
+export {PLOG_ENVIRONMENT_DEFAULT} from './lib/PLOG_ENVIRONMENT_DEFAULT';
