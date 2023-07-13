@@ -2,16 +2,14 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
-For Angular 16 use @gpeel/plog 16.1.0 or more recent
-For Angular 12 to 15 => use @gpeel/plog 12.2.0 
-For Angular 11.x.y => use @gpeel/plog@11.0.1 (last version for angular 11)
-
+For Angular 16 use @gpeel/plog 16.1.0 or more recent For Angular 12 to 15 => use @gpeel/plog 12.2.0 For Angular
+11.x.y => use @gpeel/plog@11.0.1 (last version for angular 11)
 
 npm repo:
 https://www.npmjs.com/package/@gpeel/plog
 
 Github repo at :
-https://github.com/gpeel/plog
+https://github.com/gpeel/gpeel-plog-ng16
 
 ![img.png](colorful.jpg)
 
@@ -165,7 +163,6 @@ export const environment = {
     obsSuccess: ['color:springgreen', 'OBS-SUCCESS'],
     obsError: ['color:red', 'OBS-ERROR'],
     obsDebug: ['color:springgreen', 'OBS-DEBUG'],
-
 
     // tests
     tu: ['color:green', 'tu'],
