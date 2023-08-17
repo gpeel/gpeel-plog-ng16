@@ -17,7 +17,11 @@ Medium story : https://medium.com/p/62dd10ba3d10/edit
 
 ## INSTALLATION
 
-    ng i @gpeel/plog
+    npm i @gpeel/plog
+
+Or simpler (and you'll get the latest version with the environment.ts file already updated)
+
+    ng add @gpeel/plog
 
 ## Example of what you get
 
