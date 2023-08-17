@@ -43,62 +43,7 @@ And now you can change that to src with :
       "paths": {
           "@gpeel/plog": ["projects/gpeel/plog/src/public-api.ts"]
       }
-
-##         
-
-In .eslintrc.json the geneated path is wrong, change it from :
-line 2
-
-    "extends": "../../.eslintrc.json",
-
-to :
-
-    "extends": "../../../.eslintrc.json",
-
-And also later tsconfig paths are wrong. FORM
-
-````json
-{
-  "extends": "../../.eslintrc.json",
-  "ignorePatterns": [
-    "!**/*"
-  ],
-  "overrides": [
-    {
-      "files": [
-        "*.ts"
-      ],
-      "parserOptions": {
-        "project": [
-          "projects/gpeel/my-validators/tsconfig.lib.json",
-          "projects/gpeel/my-validators/tsconfig.spec.json"
-        ],
-        "createDefaultProgram": true
-      },
-````
-
-TO CORRECT VERSION :
-
-````json
-{
-  "extends": "../../../.eslintrc.json",
-  "ignorePatterns": [
-    "!**/*"
-  ],
-  "overrides": [
-    {
-      "files": [
-        "*.ts"
-      ],
-      "parserOptions": {
-        "project": [
-          "tsconfig.lib.json",
-          "tsconfig.spec.json"
-        ],
-        "createDefaultProgram": true
-      },
-````
-
+ 
 ## npm login
 
 You should do it ONCE on your machine:

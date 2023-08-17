@@ -1,0 +1,14 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "rootDir": "schematics",
+    "outDir": "../../../dist/gpeel/plog/schematics"
+  },
+  "include": [
+    "schematics/**/*.ts"
+  ],
+  "exclude": [
+    "schematics/*/files/**/*"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "@gpeel-tools",
+  "title": "@gpeel tools plog/perf/validators",
+  "type": "object",
+  "properties": {
+    "perf": {
+      "description": "Do you want @gpeel/my-perf-tools to be added",
+      "type": "boolean",
+      "default": false,
+      "x-prompt": "Do you want @gpeel/my-perf-tools to be added ? default No"
+    },
+    "validators": {
+      "description": "Do you want @gpeel/my-validators to be added",
+      "type": "boolean",
+      "default": false,
+      "x-prompt": "Do you want @gpeel/my-validators to be added ? default No"
+    }
+  },
+  "required": []
+}

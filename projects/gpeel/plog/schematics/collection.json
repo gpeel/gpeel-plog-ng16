@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-add": {
+      "description": "This adds @gpeel/plog and optionnaly @gpeel/my-perf-tools and/or @gpeel/my-validators to your project",
+      "factory": "./ng-add/index#gpeelNgAdd",
+      "schema": "./ng-add/schema.json"
+    }
+  }
+}
+
